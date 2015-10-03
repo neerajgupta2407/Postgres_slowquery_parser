@@ -20,10 +20,12 @@ Columns:  Hash, Group, Count, Time, Query
 
 *Count is the no of queries found Corresponding to hash
 
-
 How to Use:
+
 1)Set the $destination_folder where you want to save your files 
+
 2)Set the $files_read array .You can pass no of files in single go.
+
 Thats It.
 
 Now run on shell:
