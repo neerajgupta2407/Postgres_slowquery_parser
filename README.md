@@ -1,15 +1,23 @@
 # Postgres_slowquery_parser
 
 Input: Postgres slowqwery raw file 
+
 Output: Two Csv file.
+
 File 1: Contains all the queries with the executed time in desending order
+
 Columns: Hash, Group, Time, Query
 
+
 File 2: Contains all the unique queries with the Max time of that query.
+
+
 Columns:  Hash, Group, Count, Time, Query
 
 *Hash is basically an uniqueness parameter for the Sql command.
+
 *Group used for grouping the query
+
 *Count is the no of queries found Corresponding to hash
 
 
